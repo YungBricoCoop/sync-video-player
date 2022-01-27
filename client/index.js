@@ -3,7 +3,7 @@
 let socket;
 let pageUrl = "asdasdsadsadsadasdasdsadasdasdadas";
 $(document).ready(function(){
-    socket = io("http://anonymz.internet-box.ch:3000/");
+    socket = io("https://serv.elwan.ch:8080");
 })
 
 
