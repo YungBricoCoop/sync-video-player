@@ -1,3 +1,4 @@
+//Add listener to the sync and play/pause button
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('sync').addEventListener('click', function() {
       chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
