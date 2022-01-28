@@ -23,7 +23,7 @@ function playPause() {
 //Join room
 function sync() {
   //Create a new socket
-  socket = io("https://serv.elwan.ch:8080", {
+  socket = io("https://yourdomain:8080", {
     reconnectionAttempts: 3
   });
   //Event listener for playPause
